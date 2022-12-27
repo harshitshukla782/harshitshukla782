@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewpoint" content="width=device" , initial-scale=1.0>
+</head>
+
+<body>
+    <form id="search-form">
+        <input type="search" placeholder="Enter City Name" id="search-input" required autocomplete="off">
+        <!-- <br> -->
+        <!-- <br> -->
+        <button id="search-button">Search</button>
+    </form>
+
+    <main id="app-container">
+        <div id="location">
+            <p>------</p>
+        </div>
+
+        <div id="temp">
+            <img src="./icons/snow.png" alt="" id="temp-icon">
+            <!-- <img src="https://cdn-icons.flaticon.com/png/128/2469/premium/2469994.png?token=exp=1640339405~hmac=1ead997f7f2eafd396be850d06917238" -->
+            <!-- alt="" id="temp-icon"> -->
+            <p>
+                <span id="temp-value">-----</span>
+                <span id="temp-unit">&#176c</span>
+            </p>
+        </div>
+
+        <div id="climate">
+            <p>--------</p>
+        </div>
+    </main>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
